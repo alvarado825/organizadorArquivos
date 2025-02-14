@@ -1,7 +1,6 @@
 import os
 import shutil
 
-
 while(1):
 
     extensao = '.' + input('Digite a extensão dos arquivos a serem movidos: ').lower()
