@@ -3,6 +3,7 @@ import shutil
 
 
 while(1):
+
     extensao = '.' + input('Digite a extensão dos arquivos a serem movidos: ').lower()
     caminho = input('Digite o caminho dos arquivos a serem movidos: ')
     caminho_novo = caminho + r'\Arquivos ' + extensao.replace('.','')
